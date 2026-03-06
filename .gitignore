@@ -1,0 +1,43 @@
+# ── Python / Backend ─────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# SQLite databases
+*.db
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploaded files
+uploads/
+
+# ── Node / Frontend ─────────────────────────
+node_modules/
+.next/
+out/
+.env.local
+
+# ── IDE / OS ────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Docker ──────────────────────────────────
+docker-compose.override.yml
+
+# ── Misc ────────────────────────────────────
+test_rec_output.log
